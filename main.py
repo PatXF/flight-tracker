@@ -8,7 +8,7 @@ AUTH_TOKEN = "####AUTH_TOKEN####"
 manager = data_manager.DataManager()
 ui = UserInterface()
 client = Client(TWILIO_ACC_SID, AUTH_TOKEN)
-from_number = "+19897188875"
+from_number = "####"
 i = 0
 
 while i >= 0:
